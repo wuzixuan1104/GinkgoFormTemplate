@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
+
+html { position: relative; }
+html body { position: relative; display: inline-block; width: 100%; margin: 0; padding: 0; color: #5a5a5a; text-align: center; font-size: medium; font-family: "微軟正黑體", "Open sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif; }
+html body::-moz-selection { color: white; background-color: #78baff; }
+html body::selection { color: white; background-color: #78baff; }
+
+form.login_form { display: inline-block; width: 100%; padding: 15px 10px; }
+form.login_form .list { display: inline-block; text-align: left; width: 100%; }
+form.login_form .list .row { display: block; width: 100%; }
+form.login_form .list .row > b { display: block; height: 20px; line-height: 20px; font-size: 14px; margin-bottom: 2px; }
+form.login_form .list .row > textarea { padding: 4px; font-size: 16px; color: #787878; border: 1px solid #c8c8c8; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-transition: box-shadow 0.3s, border-color 0.3s; -o-transition: box-shadow 0.3s, border-color 0.3s; -webkit-transition: box-shadow 0.3s, border-color 0.3s; transition: box-shadow 0.3s, border-color 0.3s; resize: none; display: block; height: 150px; line-height: 27px; width: 100%; border: 1px solid #c8c8c8; font-size: 16px; padding: 0 4px; color: #787878; margin-top: 5px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-transition: box-shadow 0.3s, border-color 0.3s; -o-transition: box-shadow 0.3s, border-color 0.3s; -webkit-transition: box-shadow 0.3s, border-color 0.3s; transition: box-shadow 0.3s, border-color 0.3s; }
+form.login_form .list .row > textarea:-moz-placeholder { font-weight: normal; color: #afafaf; font-size: 47.5px; }
+form.login_form .list .row > textarea::-moz-placeholder { font-weight: normal; color: #afafaf; font-size: 47.5px; }
+form.login_form .list .row > textarea:-ms-input-placeholder { font-weight: normal; color: #afafaf; font-size: 47.5px; }
+form.login_form .list .row > textarea::-webkit-input-placeholder { font-weight: normal; color: #afafaf; font-size: 47.5px; }
+form.login_form .list .row > textarea:focus { outline: 0; border: 1px solid #64afeb; -moz-box-shadow: 0 0 8px rgba(100, 175, 235, 0.6); -webkit-box-shadow: 0 0 8px rgba(100, 175, 235, 0.6); box-shadow: 0 0 8px rgba(100, 175, 235, 0.6); }
+form.login_form .list .row > textarea[readonly] { cursor: not-allowed; background-color: #fafafa; border: 1px solid #e1e1e1; }
+form.login_form .list .row > textarea[readonly]:-moz-placeholder { color: #c8c8c8; }
+form.login_form .list .row > textarea[readonly]::-moz-placeholder { color: #c8c8c8; }
+form.login_form .list .row > textarea[readonly]:-ms-input-placeholder { color: #c8c8c8; }
+form.login_form .list .row > textarea[readonly]::-webkit-input-placeholder { color: #c8c8c8; }
+form.login_form .list .row > textarea[readonly]:focus { border: 1px solid #e1e1e1; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+form.login_form .list .row > input[type="submit"] { margin-top: 20px; background-color: #419cfb; color: white; text-align: center; height: 35px; border: 0; width: 100%; -moz-transition: box-shadow 0.1s; -o-transition: box-shadow 0.1s; -webkit-transition: box-shadow 0.1s; transition: box-shadow 0.1s; }
+form.login_form .list .row + .row { margin-top: 5px; }

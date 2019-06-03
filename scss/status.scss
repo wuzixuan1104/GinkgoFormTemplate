@@ -1,0 +1,106 @@
+@import "Ginkgo";
+
+html {
+  position: relative;
+
+  body {
+    position: relative;
+
+    display: inline-block;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    color: rgba(90, 90, 90, 1.00);
+    text-align: center;
+    font-size: medium;
+    font-family: "微軟正黑體", "Open sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    background-color: gray;
+
+    // 文字染色，背景色、文字色
+    @include selection(rgba(120, 186, 255, 1.00), rgba(255, 255, 255, 1));
+  }
+}
+
+.order {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin-top: 50px;
+  background-color: #68b3e8;
+  overflow: hidden;
+  @include border-radius(30px);
+
+  > div {
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    color: #65a6da;
+    font-weight: bold;
+  }
+  ul {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-left: 80px;
+    background-color: #68b3e8;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 40px;
+      display: inline-block;
+      width: 3px;
+      height: calc(100% - 10px);
+      background-color: #badfff;
+    }
+
+    li {
+      display: block;
+      position: relative;
+      color: white;
+      + li {
+        margin-top: 20px;
+      }
+      &:before {
+        position: absolute;
+        display: inline-block;
+        top: 2px;
+        left: -48px;
+        content: '';
+        width: 20px;
+        height: 20px;
+        @include border-radius(30px);
+        background-color: #ccdff3;
+      }
+
+      &.active {
+        color: #ffe48b;
+        font-weight: bold;
+
+        &:before {
+          width: 26px;
+          height: 26px;
+          background: #ffb61d;
+          left: -52px;
+          top: -1px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

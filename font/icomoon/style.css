@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?31svmk');
-  src:  url('fonts/icomoon.eot?31svmk#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?31svmk') format('truetype'),
-    url('fonts/icomoon.woff?31svmk') format('woff'),
-    url('fonts/icomoon.svg?31svmk#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?p0472s');
+  src:  url('fonts/icomoon.eot?p0472s#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?p0472s') format('truetype'),
+    url('fonts/icomoon.woff?p0472s') format('woff'),
+    url('fonts/icomoon.svg?p0472s#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,4 +22,38 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e904";
+}
+.icon-user:before {
+  content: "\e903";
+}
+.icon-question-circle-o:before {
+  content: "\e902";
+}
+.icon-sale:before {
+  content: "\e900";
+}
+.icon-stars:before {
+  content: "\e901";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-file-text2:before {
+  content: "\e926";
+}
+.icon-cool:before {
+  content: "\e9eb";
+}
+.icon-baffled2:before {
+  content: "\e9f4";
+}
+.icon-hipster:before {
+  content: "\e9f9";
+}
+.icon-sleepy2:before {
+  content: "\e9fe";
 }
